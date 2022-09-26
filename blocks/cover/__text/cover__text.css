@@ -1,0 +1,19 @@
+.cover__text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 540px;
+    height: 740px;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__text {
+        height: 200px;
+        width: 100%;
+    }
+}

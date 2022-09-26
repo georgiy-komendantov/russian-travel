@@ -1,0 +1,28 @@
+.place__right{
+    position: relative;
+    width: 484px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__right {
+        width: 456px;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__right {
+        width: 352px;
+        margin-left: 28px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .place__right {
+        width: 100%;
+        height: auto;
+        margin: 0
+    }
+}

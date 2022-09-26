@@ -1,0 +1,10 @@
+.place__top{
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .place__top {
+        flex-wrap: wrap;
+        padding: 0 16px;
+    }
+}

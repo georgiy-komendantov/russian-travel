@@ -1,0 +1,14 @@
+.place{
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 64px;
+    }
+}
+

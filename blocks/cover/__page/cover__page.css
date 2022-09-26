@@ -1,0 +1,13 @@
+.cover__page {
+    position: absolute;
+    background-image: url("../../../images/__background.jpg");
+}
+
+@media screen and (max-width: 767px) {
+    .cover__page {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

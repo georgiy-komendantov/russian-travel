@@ -1,0 +1,34 @@
+.cover__overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 1184px;
+    height: 740px;
+    color: #fff;
+    background: rgba(42, 44, 47, 0.3);
+    transition: background 0.5s ease;
+}
+.cover__overlay:hover{
+    background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        max-width: 100%;
+        height: 200px;
+    }
+}
