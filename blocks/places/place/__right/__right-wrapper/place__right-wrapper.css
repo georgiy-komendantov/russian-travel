@@ -1,11 +1,12 @@
-.place__right-wrapper{
+.place__right-wrapper {
 
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
 }
 
 @media screen and (max-width: 767px) {
     .place__right-wrapper {
-      position: relative;
+        /*position: relative;*/
         margin: 32px 0 32px 0;
-    } }
+    }
+}

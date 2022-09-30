@@ -13,5 +13,6 @@
         line-height: 35px;
         padding: 0 16px;
         width: 250px;
+        margin: 0 auto 16px auto;
     }
 }

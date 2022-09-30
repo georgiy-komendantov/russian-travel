@@ -2,6 +2,10 @@
     position: relative;
     width: 484px;
     margin-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 1279px) {
