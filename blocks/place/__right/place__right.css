@@ -22,11 +22,10 @@
     }
 }
 
-
 @media screen and (max-width: 767px) {
     .place__right {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: 32px 0 32px 0;
     }
 }
