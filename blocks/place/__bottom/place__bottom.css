@@ -2,10 +2,6 @@
     display: flex;
     margin-top: 48px;
 }
-.place__bottom .place__right{
-    justify-content: flex-start;
-}
-
 @media screen and (max-width: 767px) {
     .place__bottom {
         flex-wrap: wrap;

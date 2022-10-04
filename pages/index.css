@@ -42,3 +42,5 @@
 @import url("../blocks/place/__span/place__span.css");
 @import url("../blocks/place/__text/place__text.css");
 @import url("../blocks/place/__link/place__link.css");
+@import url("../blocks/place/__right/_position/place__right_position_bottom.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");

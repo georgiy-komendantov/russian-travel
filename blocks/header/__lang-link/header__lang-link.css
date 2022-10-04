@@ -12,9 +12,6 @@
 }
 
 .header__lang-link:hover {
-    border: 0 solid #fff;
-    border-bottom: 2px solid #fff;
-
     opacity: 0.8;
 }
 
