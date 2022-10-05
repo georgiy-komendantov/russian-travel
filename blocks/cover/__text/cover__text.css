@@ -10,8 +10,19 @@
     margin: auto;
 }
 
+@media screen and (max-width: 1279px) {
+    .cover__text{
+        min-height: 640px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .cover__text{
+        min-height: 480px;
+    }
+}
 @media screen and (max-width: 767px) {
     .cover__text {
+        display: inline-grid;
         min-height: 200px;
         width: 100%;
     }
